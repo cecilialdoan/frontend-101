@@ -1,0 +1,102 @@
+*, *:before, *:after {
+	-moz-box-siging: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+	background-color: #DCDCDC;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 16px
+	font-weight: 200;
+	line-height: 1.6;
+}
+
+p {
+	margin-bottom: 1.25em;
+}
+
+img {
+	border: 1px solid #D3D3D3;
+	border-radius: 25px; 
+}
+
+a {
+	color: #2ba6cb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2795b6;
+	text-decoration: underline;
+}
+
+#articles {
+	border-right: #D3D3D3 thin solid;
+	margin-right: 25%;
+	background: white;
+	width: 75%;
+}
+
+#articles h2 {
+	line-height: 1;
+	margin: 0;
+}
+
+#articles h6 {
+	margin-bottom: 20px;
+}
+
+.intro {
+	height: 320px;
+	width: 100%;
+	color: white;
+	padding: 50px;
+	background-image: url('http://placekitten.com/g/1400/800');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.intro h1 {
+	font-weight: 300;
+	margin: 0;
+}
+
+
+.links {
+	padding: 10px 20px; 
+	background-color: black;
+	color: white;
+	float: right;
+}
+
+.links ul {
+	font-size: 14px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.links h3 {
+	letter-spacing: 1px;
+}
+
+.post1 {
+	padding: 40px 20px;
+	border-top-color: #d3d3d3;
+}
+.post1 img {
+	margin-left: 20px;
+	float: right;
+}
+
+.post2 {
+	background-color: #f0f0f0;
+	padding: 40px 20px;
+	border-top-color: #d3d3d3;
+}
+
+.post2 img {
+	margin-right: 20px;
+	float: left;
+}
