@@ -39,6 +39,7 @@ a:hover {
 #articles h2 {
 	line-height: 1;
 	margin: 0;
+	padding-left: 20px;
 }
 
 #articles h6 {
@@ -68,6 +69,7 @@ a:hover {
 	background-color: black;
 	color: white;
 	float: right;
+	width: 25%;
 }
 
 .links ul {
